@@ -20,3 +20,10 @@ library(tinytex)
 library(stringr)
 library(lme4)
 
+# define priors for brm
+prior_brms <- c(prior(normal(0, 1), class = "Intercept"), 
+                prior(normal(0, 1), class = "b"),
+                prior(normal(0, 1), class = "sd"), 
+                prior(lkj(2), class = "cor"))
+
+
