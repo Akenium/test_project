@@ -1,0 +1,86 @@
+nohup: les entrées sont ignorées
+Le chargement a nécessité le package : Matrix
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:plyr’:
+
+    arrange, count, desc, failwith, id, mutate, rename, summarise,
+    summarize
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘tidyr’
+
+Les objets suivants sont masqués depuis ‘package:Matrix’:
+
+    expand, pack, unpack
+
+Le chargement a nécessité le package : Rcpp
+Loading 'brms' package (version 2.16.3). Useful instructions
+can be found by typing help('brms'). A more detailed introduction
+to the package is available through vignette('brms_overview').
+
+Attachement du package : ‘brms’
+
+L'objet suivant est masqué depuis ‘package:lme4’:
+
+    ngrps
+
+L'objet suivant est masqué depuis ‘package:stats’:
+
+    ar
+
+Compiling Stan program...
+Start sampling
+
+SAMPLING FOR MODEL 'f4dd8927850bb76c75ad0d246776a3a9' NOW (CHAIN 2).
+
+SAMPLING FOR MODEL 'f4dd8927850bb76c75ad0d246776a3a9' NOW (CHAIN 3).
+Chain 2: 
+Chain 2: Gradient evaluation took 0.017485 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 174.85 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 3: 
+Chain 3: Gradient evaluation took 0.017362 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 173.62 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+
+SAMPLING FOR MODEL 'f4dd8927850bb76c75ad0d246776a3a9' NOW (CHAIN 4).
+
+SAMPLING FOR MODEL 'f4dd8927850bb76c75ad0d246776a3a9' NOW (CHAIN 1).
+Chain 2: Iteration:    1 / 1200 [  0%]  (Warmup)
+Chain Chain 1: 
+4: 
+Chain 4: Gradient evaluation took 0.016929 seconds
+Chain Chain 14: : Gradient evaluation took 0.017058 seconds1000 transitions using 10 leapfrog steps per transition would take 169.29 seconds.
+
+Chain Chain 41: : Adjust your expectations accordingly!1000 transitions using 10 leapfrog steps per transition would take 170.58 seconds.
+
+Chain Chain 41: : 
+Adjust your expectations accordingly!Chain 
+4Chain : 1
+: 
+Chain 1: 
+Chain 3: Iteration:    1 / 1200 [  0%]  (Warmup)
+Chain 4: Iteration:    1 / 1200 [  0%]  (Warmup)
+Chain 1: Iteration:    1 / 1200 [  0%]  (Warmup)
+Chain 3: Iteration:  120 / 1200 [ 10%]  (Warmup)
+Chain 1: Iteration:  120 / 1200 [ 10%]  (Warmup)
+Chain 2: Iteration:  120 / 1200 [ 10%]  (Warmup)
+Chain 4: Iteration:  120 / 1200 [ 10%]  (Warmup)
+Chain 1: Iteration:  240 / 1200 [ 20%]  (Warmup)
+Chain 3: Iteration:  240 / 1200 [ 20%]  (Warmup)
+Chain 2: Iteration:  240 / 1200 [ 20%]  (Warmup)
+Chain 4: Iteration:  240 / 1200 [ 20%]  (Warmup)

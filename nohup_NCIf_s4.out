@@ -1,0 +1,160 @@
+nohup: les entrées sont ignorées
+Le chargement a nécessité le package : Matrix
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:plyr’:
+
+    arrange, count, desc, failwith, id, mutate, rename, summarise,
+    summarize
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘tidyr’
+
+Les objets suivants sont masqués depuis ‘package:Matrix’:
+
+    expand, pack, unpack
+
+Le chargement a nécessité le package : Rcpp
+Loading 'brms' package (version 2.16.3). Useful instructions
+can be found by typing help('brms'). A more detailed introduction
+to the package is available through vignette('brms_overview').
+
+Attachement du package : ‘brms’
+
+L'objet suivant est masqué depuis ‘package:lme4’:
+
+    ngrps
+
+L'objet suivant est masqué depuis ‘package:stats’:
+
+    ar
+
+Compiling Stan program...
+Start sampling
+
+SAMPLING FOR MODEL 'f4dd8927850bb76c75ad0d246776a3a9' NOW (CHAIN 1).
+
+SAMPLING FOR MODEL 'f4dd8927850bb76c75ad0d246776a3a9' NOW (CHAIN 3).
+Chain 1: 
+Chain 1: Gradient evaluation took 0.00093 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 9.3 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 3: 
+Chain 3: Gradient evaluation took 0.000935 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 9.35 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+
+SAMPLING FOR MODEL 'f4dd8927850bb76c75ad0d246776a3a9' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 0.001125 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 11.25 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 1: Iteration:    1 / 1200 [  0%]  (Warmup)
+Chain 3: Iteration:    1 / 1200 [  0%]  (Warmup)
+
+SAMPLING FOR MODEL 'f4dd8927850bb76c75ad0d246776a3a9' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 0.001146 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 11.46 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 2: Iteration:    1 / 1200 [  0%]  (Warmup)
+Chain 4: Iteration:    1 / 1200 [  0%]  (Warmup)
+Chain 3: Iteration:  120 / 1200 [ 10%]  (Warmup)
+Chain 4: Iteration:  120 / 1200 [ 10%]  (Warmup)
+Chain 1: Iteration:  120 / 1200 [ 10%]  (Warmup)
+Chain 2: Iteration:  120 / 1200 [ 10%]  (Warmup)
+Chain 3: Iteration:  240 / 1200 [ 20%]  (Warmup)
+Chain 4: Iteration:  240 / 1200 [ 20%]  (Warmup)
+Chain 1: Iteration:  240 / 1200 [ 20%]  (Warmup)
+Chain 2: Iteration:  240 / 1200 [ 20%]  (Warmup)
+Chain 3: Iteration:  360 / 1200 [ 30%]  (Warmup)
+Chain 4: Iteration:  360 / 1200 [ 30%]  (Warmup)
+Chain 1: Iteration:  360 / 1200 [ 30%]  (Warmup)
+Chain 2: Iteration:  360 / 1200 [ 30%]  (Warmup)
+Chain 3: Iteration:  480 / 1200 [ 40%]  (Warmup)
+Chain 4: Iteration:  480 / 1200 [ 40%]  (Warmup)
+Chain 2: Iteration:  480 / 1200 [ 40%]  (Warmup)
+Chain 1: Iteration:  480 / 1200 [ 40%]  (Warmup)
+Chain 3: Iteration:  600 / 1200 [ 50%]  (Warmup)
+Chain 3: Iteration:  601 / 1200 [ 50%]  (Sampling)
+Chain 4: Iteration:  600 / 1200 [ 50%]  (Warmup)
+Chain 4: Iteration:  601 / 1200 [ 50%]  (Sampling)
+Chain 2: Iteration:  600 / 1200 [ 50%]  (Warmup)
+Chain 2: Iteration:  601 / 1200 [ 50%]  (Sampling)
+Chain 1: Iteration:  600 / 1200 [ 50%]  (Warmup)
+Chain 1: Iteration:  601 / 1200 [ 50%]  (Sampling)
+Chain 3: Iteration:  720 / 1200 [ 60%]  (Sampling)
+Chain 2: Iteration:  720 / 1200 [ 60%]  (Sampling)
+Chain 4: Iteration:  720 / 1200 [ 60%]  (Sampling)
+Chain 1: Iteration:  720 / 1200 [ 60%]  (Sampling)
+Chain 3: Iteration:  840 / 1200 [ 70%]  (Sampling)
+Chain 2: Iteration:  840 / 1200 [ 70%]  (Sampling)
+Chain 4: Iteration:  840 / 1200 [ 70%]  (Sampling)
+Chain 1: Iteration:  840 / 1200 [ 70%]  (Sampling)
+Chain 3: Iteration:  960 / 1200 [ 80%]  (Sampling)
+Chain 2: Iteration:  960 / 1200 [ 80%]  (Sampling)
+Chain 4: Iteration:  960 / 1200 [ 80%]  (Sampling)
+Chain 1: Iteration:  960 / 1200 [ 80%]  (Sampling)
+Chain 3: Iteration: 1080 / 1200 [ 90%]  (Sampling)
+Chain 2: Iteration: 1080 / 1200 [ 90%]  (Sampling)
+Chain 4: Iteration: 1080 / 1200 [ 90%]  (Sampling)
+Chain 1: Iteration: 1080 / 1200 [ 90%]  (Sampling)
+Chain 3: Iteration: 1200 / 1200 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 5582.96 seconds (Warm-up)
+Chain 3:                7380.71 seconds (Sampling)
+Chain 3:                12963.7 seconds (Total)
+Chain 3: 
+Chain 2: Iteration: 1200 / 1200 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 6417.24 seconds (Warm-up)
+Chain 2:                7095.05 seconds (Sampling)
+Chain 2:                13512.3 seconds (Total)
+Chain 2: 
+Chain 4: Iteration: 1200 / 1200 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 6385.77 seconds (Warm-up)
+Chain 4:                7274.89 seconds (Sampling)
+Chain 4:                13660.7 seconds (Total)
+Chain 4: 
+Chain 1: Iteration: 1200 / 1200 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 6556.65 seconds (Warm-up)
+Chain 1:                7239.34 seconds (Sampling)
+Chain 1:                13796 seconds (Total)
+Chain 1: 
+Messages d'avis :
+1: Rows containing NAs were excluded from the model. 
+2: There were 21 divergent transitions after warmup. See
+https://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
+to find out why this is a problem and how to eliminate them. 
+3: There were 2348 transitions after warmup that exceeded the maximum treedepth. Increase max_treedepth above 15. See
+https://mc-stan.org/misc/warnings.html#maximum-treedepth-exceeded 
+4: Examine the pairs() plot to diagnose sampling problems
+ 
+5: The largest R-hat is 1.23, indicating chains have not mixed.
+Running the chains for more iterations may help. See
+https://mc-stan.org/misc/warnings.html#r-hat 
+6: Bulk Effective Samples Size (ESS) is too low, indicating posterior means and medians may be unreliable.
+Running the chains for more iterations may help. See
+https://mc-stan.org/misc/warnings.html#bulk-ess 
+7: Tail Effective Samples Size (ESS) is too low, indicating posterior variances and tail quantiles may be unreliable.
+Running the chains for more iterations may help. See
+https://mc-stan.org/misc/warnings.html#tail-ess 
