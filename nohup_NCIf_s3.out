@@ -109,3 +109,36 @@ Chain 3: Iteration:  840 / 1200 [ 70%]  (Sampling)
 Chain 2: Iteration:  840 / 1200 [ 70%]  (Sampling)
 Chain 4: Iteration:  840 / 1200 [ 70%]  (Sampling)
 Chain 1: Iteration:  960 / 1200 [ 80%]  (Sampling)
+Chain 3: Iteration:  960 / 1200 [ 80%]  (Sampling)
+Chain 1: Iteration: 1080 / 1200 [ 90%]  (Sampling)
+Chain 2: Iteration:  960 / 1200 [ 80%]  (Sampling)
+Chain 4: Iteration:  960 / 1200 [ 80%]  (Sampling)
+Chain 3: Iteration: 1080 / 1200 [ 90%]  (Sampling)
+Chain 1: Iteration: 1200 / 1200 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 107076 seconds (Warm-up)
+Chain 1:                90290 seconds (Sampling)
+Chain 1:                197366 seconds (Total)
+Chain 1: 
+Chain 2: Iteration: 1080 / 1200 [ 90%]  (Sampling)
+Chain 4: Iteration: 1080 / 1200 [ 90%]  (Sampling)
+Chain 3: Iteration: 1200 / 1200 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 116198 seconds (Warm-up)
+Chain 3:                96850.9 seconds (Sampling)
+Chain 3:                213049 seconds (Total)
+Chain 3: 
+Chain 2: Iteration: 1200 / 1200 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 120575 seconds (Warm-up)
+Chain 2:                96285.8 seconds (Sampling)
+Chain 2:                216860 seconds (Total)
+Chain 2: 
+Chain 4: Iteration: 1200 / 1200 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 120832 seconds (Warm-up)
+Chain 4:                96423.7 seconds (Sampling)
+Chain 4:                217256 seconds (Total)
+Chain 4: 
+Message d'avis :
+Rows containing NAs were excluded from the model. 
