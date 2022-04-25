@@ -6,7 +6,7 @@ library(brms)
 options(mc.cores = parallel::detectCores())
 
 
-load(file = "rd.RData")
+load(file = "rd2d.RData")
 
 
 # define priors for brm
@@ -25,7 +25,7 @@ fit_brm_S3_NCIfonctionnel <- brm(formula = gig_abs ~
                        + (1 | treeid) + (1 | year)
                        # + (1 | site)
                        , #  random effects of individual, site (quadrat if within a plot or plot if comparison between plots), census
-                       data=rd[which(rd$Strata.Sylv==3), ], # standardized inout data 
+                       data=rd2d[which(rd2d$Strata.Sylv==3), ], # standardized inout data 
                        family=gaussian(), 
                        prior=prior_brms, 
                        iter=1200, chains=4, cores=4, seed=42, control=list(adapt_delta=0.99, max_treedepth=15))
